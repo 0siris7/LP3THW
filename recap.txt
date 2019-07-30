@@ -1,0 +1,134 @@
+PYTHON STUFF
+
+INITIAL
+print("[enter stuff here]")			-	to print stuff in terminal
+print(f"[stuff]")				-	formatted string
+format()					-	formatting a {} in a string
+end =""						- 	append next statement with statement having this var(usually in print statms)
+input						-	used to get input from user
+=						-	make a variable or assign a value
+==						- 	checks equality
+------------------------------------------------------------------------------------------------------------------------------------
+
+ARITHMETIC
++						- 	addition as well as concatenation
+-						-	subtraction
+/						- 	division
+*						-	multiplication
+%						-   	modulus
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+MODULES						-	import predefined functions/features
+sys						-	used to import argv
+os.path						-	used to import exists (used to check if a file exists)
+from 						- 	used to signify specific functions/variables you want to import
+import 						-	to add modules to programs
+argv						-	used to get terminal input
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+FILES
+file_object = open(filename)			-	open function used to create file object
+file mode 					-	how the file is to be opened(default is 'r');includes '+' modifiers
+read()						-	to read content of file
+write()						-	write to file
+truncate()					-	erase file(opening file in 'w' truncates it)
+readline()					-	read a single line from file
+seek(offset,[starting])		-	set file pointer to specific location;starting takes 0-beginning; 1-current; 2-end;offset not -ve
+
+os.getcwd()					-	Get current working directory
+
+os.path.abspath(argument(file or directory))	-	gets absoulte path of directory
+
+
+os.path.exists(argument(file or directory))	-	checks whether file or directory exists
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+FUNCTIONS
+def funcname(parameters):	-	to define a function ;	body of function represented by indendation
+funcname([arguments])		-	used to call function
+return						-	implemented within fucntions to return someting to the calling
+object.strip(object)		-	Remove beginning and ending of a string based on character given as object
+object.split(delimited)		-	splits string based on delimiter
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+EXTRA
+split([delimiter])			-	breaks string at delimenter
+strip()					-	remove stuff from string
+sorted(argument)			-	Used to sort a list of strings
+pop(loc)				-	remove strings from a list ; -ve values signify end items
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+LOGIC
+True ; False 				-	logic (first letter is caps)
+==							-	equality
+!=							-	not equal to
+>=							-	greated that or equal to
+<=							-	equal to
+>,<							-	Greater than;less than
+and, or, not				-	and and or,not
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+CONDITION/BRANCHING
+if condition:				-	used to check if something is true or not
+else:						-	alt stmts executed if condition becomes false
+elif condition:				-	else if
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+LOOPING
+for expression 				-	entry controlled loop
+list_name.append(item)		-	Used to add stuff to lists	
+while expression			-	entry controlled loop
+exit()						-	used to kill a script
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+KEYWORDS
+
+with-as : with open(filename,[mode]) as object: - after ops on file is done it is automatically closed (no need for fobject.close())
+assert condition			-	ensure that a expression or condition is true
+class classname:			-	for creating classes
+continue					-	force next iteration in loop without executing stmts below it
+breaks 						-	exits loop when found
+def 						-	definite functions
+del 						-	everything is object in py; used to delete objects
+elif						-	else-if
+else 						-	else part of if-else branch
+except						-	block of statement to handle exceptions (part of try - except - finally)
+exec(object[,global,local]) -	dynamic execution of pgm(or a specific statement), global- global dictionary;local- local dictionary
+finally						-	block executed despite the error
+for 						-	for loop
+from 						-	import particular parts from a module
+global var_name				-	global variables
+if 							-	if statement
+import						-	import modules or parts of it
+in 							-	used with for loop(for iteration) or check if something exists in a sequence(lists)
+is 							-	same as == (1 is 1 => True)
+lambda 						-	small functions
+not , or					-	logic
+pass						-	similar to comment but not ignored and executed (used usually when required sysntatically)
+print 						-	to print stuff
+raise 						-	raise exception when things go wrong
+return 						-	return from function def or return something from func def
+try  						-	exception handling
+while						-	while loop
+yield 						-	pause and return to caller
+(delimiter).join(object)	-	join stuff in a list
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+DICTIONARIES
+
+dict.items()				-	returns (key,value) tuples
+list (dict.items())			-	returns a list of (key,value) yuples
+dict.keys()				-	returns keys
+dict.values()				-	returns values
+------------------------------------------------------------------------------------------------------------------------------------
